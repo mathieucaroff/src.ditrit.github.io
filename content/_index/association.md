@@ -17,7 +17,7 @@ title = "L'association"
   image = "communaute_ditrit.png"
 
 [[buttons]]
-  text = "Button"
+  text = "En savoir plus"
   url = "/about"
   color = "primary"
 
