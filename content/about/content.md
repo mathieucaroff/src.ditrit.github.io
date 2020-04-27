@@ -11,8 +11,6 @@ title = "Qui sommes nous ?"
 
 # La communauté et l'association DitRit (Design it, Run it !)
 
----
-
 La communauté DitRit est un groupe de réflexion français à but non lucratif dans le domaine de la transformation numérique des organisations.
 
 Ses principales activités consistent à :
