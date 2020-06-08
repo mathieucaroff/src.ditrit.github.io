@@ -69,7 +69,7 @@ lastmod = ["lastmod", ":git", "date"]
 
 [[menu.main]]
   url = "/about"
-  name = "Qui sommes nous ?"
+  name = "Qui sommes-nous ?"
   weight = 20
  
 [[menu.main]] 
@@ -94,7 +94,7 @@ lastmod = ["lastmod", ":git", "date"]
 
 [[menu.copyright_footer]]
   url = "/about"
-  name = "Qui sommes nous ?"
+  name = "Qui sommes-nous ?"
   weight = 10
 
 [[menu.copyright_footer]]
@@ -110,6 +110,6 @@ lastmod = ["lastmod", ":git", "date"]
 
 [[menu.footer_social]]
   weight = 30
-  name = "linkedin"
+  name = "linkedIn"
   pre = "fab fa-linkedin-in"
   url = "#"
