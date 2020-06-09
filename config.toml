@@ -1,23 +1,22 @@
-# Site settings                     
-languageCode = "fr-fr" 
+# Site settings
+languageCode = "fr-fr"
 title = "DitRit - Design it, Run it"
 theme = "syna"
-enableGitInfo = true 
-version = "0.16.2" 
-          
-# Google Analytics tracking   
-googleAnalytics = ""  
- 
-[outputs] 
+version = "0.16.2"
+
+# Google Analytics tracking
+googleAnalytics = ""
+
+[outputs]
   home = ["HTML", "JSON"]
 
 [frontmatter]
 date = ["date", "lastmod"]
 lastmod = ["lastmod", ":git", "date"]
- 
+
 [markup]
   [markup.goldmark]
-    [markup.goldmark.renderer]  
+    [markup.goldmark.renderer]
      unsafe = true
 
 [params]
@@ -25,18 +24,18 @@ lastmod = ["lastmod", ":git", "date"]
   description = "Open Source Agile Software Factory Framework"
 
   [params.style]
-    #background = "secondary" 
- 
+    #background = "secondary"
+
   # Theme customizations
   # Assets relative to 'static/'
-  [params.custom] 
-    favicon = "favicon.ico"  
+  [params.custom]
+    favicon = "favicon.ico"
     favicon_ico_sizes = "16x16 32x32"
     favicon_png = "favicon.png"
-    favicon_svg = "favicon.svg"  
+    favicon_svg = "favicon.svg"
 
-  # Piwik tracking 
-  [params.analytics.piwik] 
+  # Piwik tracking
+  [params.analytics.piwik]
     #url = ""
     #id = ""
     #domain = "" # Track subdomains via "*.example.com"
@@ -49,7 +48,7 @@ lastmod = ["lastmod", ":git", "date"]
     disabled = false
     pro = false
 
-  [params.colors] 
+  [params.colors]
     primary = "#00838F"
     secondary = "#EFEFE9" #"#868e96"
     success = "#008f54"
@@ -57,13 +56,13 @@ lastmod = ["lastmod", ":git", "date"]
     warning = "#fdf314"
     danger = "#dc1200"
     light = "#FAEFE7" #  "#f8f9fa"
-    dark = "#343a40"        
-   
+    dark = "#343a40"
+
 # main/prepend/postpend menus are displayed in nav fragment.
 # Keep an eye out for updates. These will be moved out to make navbar more
 # configurable.
-[[menu.main]]   
-  url = "/" 
+[[menu.main]]
+  url = "/"
   name = "Page principale"
   weight = 10
 
@@ -71,14 +70,14 @@ lastmod = ["lastmod", ":git", "date"]
   url = "/about"
   name = "Qui sommes nous ?"
   weight = 20
- 
-[[menu.main]] 
+
+[[menu.main]]
   url = "#contact"
   name = "Nous contacter"
   weight = 30
 
 [[menu.footer]]
-  url = "https://github.com/ditrit" 
+  url = "https://github.com/ditrit"
   name = "Code source des projets"
   weight = 20
 
